@@ -1,0 +1,40 @@
+/* Propiedades imagenes */
+img{
+	width: 200px; 
+	height: auto; /* Reduce proporcionalmente la imagen */
+	margin: 0 auto;
+	position: relative;
+}
+
+img:nth-child(even){
+	top: 150px;
+	left: -50px;
+}
+
+#venusaur{
+	background-color: #69A847;
+}
+
+#starmie{
+	background-color: #518ECB;
+}
+
+#arcanine{
+	background-color: #E9482F;
+	left: -100px;
+}
+
+#jolteon{
+	background-color: #FFD75F;
+	left: -150px;
+}
+
+#dragonite{
+	background-color: #6262AA;
+	left: -250px;
+}
+
+#gengar{
+	background-color: #57578F;
+	left: -200px;
+}
